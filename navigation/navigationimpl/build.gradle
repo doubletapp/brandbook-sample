@@ -1,0 +1,27 @@
+buildscript {
+    project.apply {
+        from("$rootDir/gradle/plugin/kotlin-android-ui.gradle")
+        from("$rootDir/gradle/plugin/kotlin-kapt.gradle")
+    }
+}
+
+plugins {
+    id("androidx.navigation.safeargs.kotlin")
+}
+
+dependencies {
+    api(project(":navigation::navigationapi"))
+    implementation(project(":di"))
+    implementation(project(":feature::splash"))
+    implementation(project(":feature::profile"))
+    implementation(project(":feature::challengelist"))
+    implementation(project(":feature::challengecreation"))
+
+    implementation("androidx.core:core-ktx:1.10.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
+    implementation("com.google.dagger:dagger:2.44")
+    kapt("com.google.dagger:dagger-compiler:2.44")
+}

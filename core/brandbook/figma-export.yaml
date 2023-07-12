@@ -1,0 +1,30 @@
+figma:
+  lightFileId: 7sHofbAVSLLT9c14RetvFm
+
+common:
+  colors:
+    nameValidateRegexp: '^([a-zA-Z_]+)$'
+    nameReplaceRegexp: 'fifty_two_challenge_app_$1_color'
+  typography:
+    nameValidateRegexp: '^([a-zA-Z_]+)$'
+    nameReplaceRegexp: 'fifty_two_challenge_app_$1_style'
+  images:
+    nameValidateRegexp: '^([a-zA-Z_]+)$'
+    nameReplaceRegexp: 'fifty_two_challenge_app_$1'
+  icons:
+    nameValidateRegexp: '^([a-zA-Z_]+)$'
+    nameReplaceRegexp: 'fifty_two_challenge_app_$1'
+
+android:
+  mainRes: './src/main/res'
+  icons:
+    figmaFrameName: Icons
+    output: "icons"
+  images:
+    figmaFrameName: Illustrations
+    format: webp
+    output: "images"
+    scales: [1, 1.5, 2, 3, 4]
+    webpOptions:
+      encoding: lossy
+      quality: 90

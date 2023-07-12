@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Fiftytwochallenge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/fifty_two_challenge_app_color_background_main_color</item>
+        <item name="colorPrimaryVariant">@color/fifty_two_challenge_app_color_control_color</item>
+        <item name="colorOnPrimary">@color/fifty_two_challenge_app_color_control_color</item>
+        <item name="colorSecondary">@color/fifty_two_challenge_app_color_background_secondary_color</item>
+        <item name="colorOnSecondary">@color/fifty_two_challenge_app_text_primary_color</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

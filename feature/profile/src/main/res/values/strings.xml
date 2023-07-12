@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fifty_two_challenge_app_profile">Ваш профиль</string>
+    <string name="fifty_two_challenge_app_username">nikistos</string>
+    <string name="fifty_two_challenge_app_email">nchernobrisov@doubletapp.io</string>
+    <string name="fifty_two_challenge_app_notification">Включить напоминания</string>
+    <string name="fifty_two_challenge_app_dark_theme">Тёмная тема</string>
+    <string name="fifty_two_challenge_app_rate">Оценить приложение</string>
+    <string name="fifty_two_challenge_app_exit">Выйти</string>
+    <string name="fifty_two_challenge_app_about">О приложении:\n\n52 challenge app сделано с любовь и заботой.\nПомогает вам копить деньгии жить счастливую жизнь.</string>
+</resources>

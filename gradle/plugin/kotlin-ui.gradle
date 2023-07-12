@@ -1,0 +1,8 @@
+apply from: "$rootDir/gradle/plugin/kotlin.gradle"
+
+android {
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+}
